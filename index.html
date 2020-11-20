@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pass The Message</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="input">
+      <h1>Message You Would Like To Pass</h1>
+      
+       <form class="box" action="">
+        <input class="input" placeholder="Enter Message" type="text" name="" id="" />
+        <button class="btn submit" onkeypress="keyPress" type="submit">Submit</button>
+       </form>
+      
+      <div class="msgBox">
+        <h3 style="font-weight:lighter" class="">Last Message You Passed:</h3>
+        <div class="msg">
+          <p class="content"></p>
+          <button class="reset">
+            <i class="fa fa-trash del fa-2x" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
